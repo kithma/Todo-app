@@ -1,4 +1,4 @@
-import Navbar from "./components/shared/navbar/Navbar";
+import Navbar from "./components/shared/Navbar";
 import Routes from "./Routes";
 import MainLayout from "./components/layouts/MainLayout";
 

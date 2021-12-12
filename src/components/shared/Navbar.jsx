@@ -1,8 +1,8 @@
-import classes from "./Navbar.module.css";
+import styles from "./Shared.module.css";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-	return <div className={classes.navbar}>
+	return <div className={styles.navbar}>
 		<ul>
 			<li>
 				<Link to="/">

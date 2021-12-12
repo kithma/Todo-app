@@ -1,7 +1,7 @@
-import classes from "./Layouts.module.css";
+import styles from "./Layouts.module.css";
 
 const MainLayout = (props) => {
-	return <div className={classes.container}>
+	return <div className={styles.container}>
 		{props.children}
 	</div>
 }
